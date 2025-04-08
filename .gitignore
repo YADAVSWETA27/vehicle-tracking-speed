@@ -1,0 +1,22 @@
+# Ignore virtual env
+venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore model weights
+*.pt
+
+# Ignore results and media
+*.mp4
+*.png
+*.csv
+results/
+videos/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+models/yolov8x.pt
