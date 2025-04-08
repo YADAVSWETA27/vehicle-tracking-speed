@@ -1,4 +1,5 @@
-# Ignore virtual env
+models/yolov8x.pt
+# Ignore virtual environment
 venv/
 
 # Ignore Python cache
@@ -8,15 +9,13 @@ __pycache__/
 # Ignore model weights
 *.pt
 
-# Ignore results and media
+# Ignore media & output files
 *.mp4
 *.png
 *.csv
 results/
 videos/
 
-# Ignore system files
+# System files
 .DS_Store
 Thumbs.db
-
-models/yolov8x.pt
